@@ -65,6 +65,8 @@
     <None Include="Elastic\LogsAnalyzer.fsx" />
     <None Include="ISM\ISM_lab1.fsx" />
     <None Include="ISM\ISM_lab3.fsx" />
+    <None Include="ISM\ISM_lab2.fsx" />
+    <Compile Include="ISM\Common.fs" />
     <None Include="Scripts\load-references-debug.fsx" />
     <None Include="Scripts\load-project-debug.fsx" />
     <None Include="Scripts\load-references-release.fsx" />
