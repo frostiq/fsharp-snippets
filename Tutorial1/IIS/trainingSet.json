@@ -1,0 +1,34 @@
+[
+  {
+    "attributes": [      0,      0,      0,      0,      0,      0,      0,      0    ],
+    "classIndex": 0
+  },
+  {
+    "attributes": [      0,      0,      0,      0,      1,      0,      0,      0    ],
+    "classIndex": 0
+  },
+  {
+    "attributes": [      1,      0,      1,      1,      1,      0,      1,      0    ],
+    "classIndex": 1
+  },
+  {
+    "attributes": [      0,      0,      0,      0,      1,      0,      1,      1    ],
+    "classIndex": 1
+  },
+  {
+    "attributes": [      0,      1,      1,      0,      0,      1,      1,      0    ],
+    "classIndex": 2
+  },
+  {
+    "attributes": [      0,      0,      1,      0,      0,      1,      1,      0    ],
+    "classIndex": 2
+  },
+  {
+    "attributes": [      0,      0,      1,      0,      1,      1,      1,      1    ],
+    "classIndex": 3
+  },
+  {
+    "attributes": [      1,      1,      1,      1,      1,      1,      1,      1    ],
+    "classIndex": 3
+  }
+]

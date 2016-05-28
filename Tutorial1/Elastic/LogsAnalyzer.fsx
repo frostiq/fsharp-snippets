@@ -39,3 +39,23 @@ Seq.map tryParse |>
 Seq.filter (fun x -> x <> null) |>
 Seq.map Encoding.UTF8.GetString |>
 id
+
+
+type ParserUG = JsonProvider<"""[  {
+    "accountGroupId": 69453,
+    "accountGroupName": "DefaultAgencyUsers",
+    "agencyId": 1,
+    "countryId": 3
+  }]""">
+
+let ugdata = File.ReadAllText @"C:\Temp\Untitled-1.txt"
+
+let parsedug = ParserUG.Parse ugdata
+
+let res = parsedug |> Seq.filter (fun x -> x.AccountGroupName <> "DefaultAgencyUsers")
+                   |> Seq.groupBy (fun x -> x.AgencyId)
+                   |> Seq.map (fun (x,_) -> x.ToString())
+
+Seq.length res
+
+File.AppendAllText(@"C:\Temp\out.txt", String.Join(",",res))

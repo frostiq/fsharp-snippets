@@ -67,6 +67,10 @@
     <None Include="ISM\ISM_lab3.fsx" />
     <None Include="Scripts\load-references-debug.fsx" />
     <None Include="Scripts\load-project-debug.fsx" />
+    <None Include="Scripts\load-references-release.fsx" />
+    <None Include="Scripts\load-project-release.fsx" />
+    <None Include="IIS\IIS_lab2.fsx" />
+    <None Include="IIS\trainingSet.json" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Charting">
