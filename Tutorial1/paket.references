@@ -1,0 +1,11 @@
+FSharp.Charting
+FSharp.Collections.ParallelSeq
+FSharp.Core
+FSharp.Data
+FSharp.Text.RegexProvider
+FsPickler
+FsPickler.Json
+MathNet.Numerics
+MathNet.Numerics.FSharp
+Microsoft.Net.Http
+Newtonsoft.Json

@@ -1,0 +1,18 @@
+FRAMEWORK: >= NET461
+NUGET
+  remote: https://www.nuget.org/api/v2
+    FSharp.Charting (0.90.13)
+    FSharp.Collections.ParallelSeq (1.0.2)
+    FSharp.Core (3.1.2.5)
+    FSharp.Data (2.2.5)
+    FSharp.Text.RegexProvider (0.0.7)
+    FsPickler (2.0)
+    FsPickler.Json (2.0)
+      FsPickler (2.0)
+      Newtonsoft.Json (>= 6.0.5)
+    MathNet.Numerics (3.11)
+    MathNet.Numerics.FSharp (3.11)
+      FSharp.Core (>= 3.1.2.5)
+      MathNet.Numerics (3.11)
+    Microsoft.Net.Http (2.0.20710)
+    Newtonsoft.Json (8.0.3)

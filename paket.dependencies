@@ -1,0 +1,14 @@
+source https://www.nuget.org/api/v2
+framework >= net461
+
+nuget FSharp.Charting 0.90.13
+nuget FSharp.Collections.ParallelSeq 1.0.2
+nuget FSharp.Core 3.1.2.5
+nuget FSharp.Data 2.2.5
+nuget FSharp.Text.RegexProvider 0.0.7
+nuget FsPickler 2.0.0
+nuget FsPickler.Json 2.0.0
+nuget MathNet.Numerics 3.11.0
+nuget MathNet.Numerics.FSharp 3.11.0
+nuget Microsoft.Net.Http 2.0.20710.0
+nuget Newtonsoft.Json 8.0.3
